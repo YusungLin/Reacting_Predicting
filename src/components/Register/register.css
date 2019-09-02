@@ -1,0 +1,88 @@
+/* import chinese font "楷體字體" from google fonts */
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+/* the container of the component */
+.register {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 60vh;
+    width: 50vw;
+    transform: translate(-50%, -50%);
+    background-color: coral;
+    border-radius: 75px;
+}
+
+.title {
+    /* display: inline-block; */
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -64%);
+    font-size: 450%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(49, 49, 49);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(49, 49, 49);
+}
+
+.layout {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form {
+    /* to adjust slightly */
+    position: relative;
+    top: -5%;
+    height: fit-content;
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.row {
+    margin: 1% 0;
+}
+
+label {
+    /* to adjust slightly */
+    position: relative;
+    top: 10%;
+
+    font-size: 175%;
+    font-family: "cwTeXKai", serif;
+    text-align: right;
+}
+
+input {
+    width: 40%;
+    font-size: 125%;
+    font-family: "cwTeXKai", serif;
+    padding: 0.8%;
+}
+
+.linking-comp {
+    position: relative;
+    top: -2%;
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.mybtn {
+    width: 40%;
+}

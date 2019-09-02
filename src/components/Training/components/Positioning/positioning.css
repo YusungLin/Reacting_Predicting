@@ -1,0 +1,55 @@
+
+.positioning {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.row {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 200%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tennis-table {
+  /* height:width = 9:10 */
+  height: 405px;
+  width: 450px;
+  background-color: rgb(16, 16, 100);
+
+  box-sizing: border-box;
+  border: 0.3em solid white;
+  border-top: none;
+  /* 為了隱藏破圖時跑出border的藍色桌面區域 */
+  /* in order to hide/fix the broken display that part of the blue table area would come out of the border */
+  outline: 0.0001em solid white;
+
+  user-select: none;
+}
+
+.tennis-table:focus {
+  user-select: none;
+  outline: 0;
+}
+
+.middle-line {
+  height: 405px;
+  width: 0.3em;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-row {
+  /* to prevent the change of the height due to the different length of the label */
+  height: 10%;
+  width: 14%;
+}

@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+.history {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex: row;
+}
+
+table {
+  margin: auto;
+  width: 70%;
+  position: relative;
+  top: -5%;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+th, td {
+  display: inline-block;
+  font-family: "cwTeXKai", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0.5rem 0rem;
+  font-size: 200%;
+}
+
+th {
+  width: 50%;
+  text-align: center;
+}
+
+td {
+  width: 50%;
+  text-align: center;
+}
+
+.max-err {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+}

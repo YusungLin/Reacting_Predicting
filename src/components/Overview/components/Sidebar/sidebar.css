@@ -1,0 +1,16 @@
+
+.sidebar {
+  background-color: rgba(233, 150, 123, 0.3);
+  height: 100%;
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mybtn {
+  height: 12%;
+  width: 75%;
+  margin: 0 auto;
+}
